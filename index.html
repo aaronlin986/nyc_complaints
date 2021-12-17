@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='index.css'>
+        <script src='index.js'></script>
+        <title>NYC Complaints</title>
+    </head>
+    <body>
+        <div id='container'>
+            <h1>NYC Complaints</h1>
+            <div id='search-container'>
+                <input id='search' type='text' placeholder="# OF COMPLAINTS TO SHOW">
+            </div>
+            <div id='button-container'>
+                <button onclick="handleSearch('BRONX')" class='boroughs'>BRONX</button>
+                <button onclick="handleSearch('BROOKLYN')" class='boroughs'>BROOKLYN</button>
+                <button onclick="handleSearch('MANHATTAN')" class='boroughs'>MANHATTAN</button>
+                <button onclick="handleSearch('QUEENS')" class='boroughs'>QUEENS</button>
+                <button onclick="handleSearch('STATEN ISLAND')" class='boroughs'>STATEN ISLAND</button>
+            </div>
+            <div id='list-container'>
+                <ul id='list'>
+
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
